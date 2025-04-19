@@ -1,5 +1,7 @@
 # ShadowFetch for Vercel
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FJ3n5en%2Fshadowfetch-vercel&env=TARGET_URL,PASSWORD,DEBUG_MODE,IMPERSONATE_CHROME)
+
 ## 功能特点
 
 - 支持所有HTTP方法（GET, POST, PUT, DELETE, PATCH, HEAD, OPTIONS）
@@ -12,7 +14,7 @@
 
 项目使用以下环境变量进行配置：
 
-| 环境变量 | 说明 | 默认值 |
+| 环境变量 | 说明 | 示例 |
 |---------|------|-------|
 | `TARGET_URL` | 目标服务器的URL，所有请求将被转发到这个URL | `https://httpbin.org/` |
 | `PASSWORD` | 访问代理服务的密码，用于URL路径中 | `J3` |
